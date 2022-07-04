@@ -1,0 +1,22 @@
+@API_URL = http://localhost:5000
+
+### HOMEPAGE
+GET {{API_URL}}/
+
+### LOGIN
+POST {{API_URL}}/login
+Content-Type: application/json
+
+{
+  "email": "u2@u2.com",
+  "password": "u2"
+}
+
+### PROTECTED RESOURCES
+GET {{API_URL}}/users
+
+###
+GET {{API_URL}}/books
+
+### LOGOUT
+GET {{API_URL}}/logout
