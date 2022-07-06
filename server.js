@@ -36,9 +36,10 @@ app.use(
 
 // HOME ROUTE
 app.get("/", (req, res) => {
-  res.json({
-    message: "Welcome to Auth API. Hack me if you can...",
-  })
+  // res.json({
+  //   message: "Welcome to Auth API. Hack me if you can...",
+  // })
+res.json(`Welcome to Auth API. Hack me if you can...`)
 })
 
 
@@ -49,7 +50,7 @@ app.post("/login", (req, res) => {
     return res.status(400).json({ error: "Provide email and password fields" })
   }
 
-  const user = users.find((user) => user.email == email && user.pw == password)
+  const user = users.find((user) => user.email == email && user.password == password)
 
   if (!user) {
     return res
