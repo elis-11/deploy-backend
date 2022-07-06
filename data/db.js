@@ -1,22 +1,22 @@
 export const db = {
   users: [
-    { _id: "u1", email: "u1@u1.com", password: "u1", books: ["b1"] },
-    { _id: "u2", email: "u2@u2.com", password: "u2", books: ["b1", "b2"] },
+    { _id: "u1", email: "u1@gmail.com", password: "u1", books: ["b1"] },
+    { _id: "u2", email: "u2@gmail.com", password: "u2", books: ["b1", "b2"] },
     {
       _id: "u3",
-      email: "u3@u3.com",
+      email: "u3@gmail.com",
       password: "u3",
       books: ["b1", "b2", "b3"],
     },
     {
       _id: "u4",
-      email: "u4@u4.com",
+      email: "u4@gmail.com",
       password: "u4",
       books: ["b1", "b2", "b3", "b4"],
     },
     {
       _id: "u5",
-      email: "u5@u5.com",
+      email: "u5@gmail.com",
       password: "u5",
       books: ["b1", "b2", "b3", "b4", "b5"],
     },
